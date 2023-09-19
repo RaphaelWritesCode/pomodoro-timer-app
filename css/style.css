@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+.timerContainer {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.timerNavBar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.timerNavBar button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.timerNavBar button:hover {
+    background-color: #ff7f66;
+}
+
+#timeDisplay {
+    font-size: 2em;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#timeDisplayBtns {
+    text-align: center;
+}
+
+#timeDisplayBtns button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#timeDisplayBtns button:hover {
+    background-color: #66d47a;
+}
